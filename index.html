@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript Application</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        
+    <!-- /*Имя завода, Диаметр, Материал, Брак*/ -->
+        <input id ="inputnamefactory" type= text placeholder="Имя завода">
+        
+        <input id ="inputdiametr" type="number" placeholder="Диаметр">
+        
+        <input id ="inputmaterial" type="text" placeholder="Материал">
+
+        
+        <h1>Брак:</h1>
+        <input type="checkbox">
+
+        <button onclick="CreatePipe()">Добавить</button>
+
+        <ul class="objects">
+            <li class="object">
+                <div class="factory-name">111</div>
+                <div class="diameter">Lorem ipsum dolor sit amet.</div>
+                <div class="material">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+            </li>
+            <li class="object">
+                <div class="factory-name">222</div>
+                <div class="diameter">Lorem ipsum dolor sit amet.</div>
+                <div class="material">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+            </li>
+            <li class="object failed">
+                <div class="factory-name">333</div>
+                <div class="diameter">Lorem ipsum dolor sit amet.</div>
+                <div class="material">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+            </li>
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
